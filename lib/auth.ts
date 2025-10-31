@@ -18,17 +18,17 @@ export const auth = betterAuth({
         enabled: true,
         }
     },
-    socialProviders: {
-        github: {
-            clientId: "",
-            clientSecret: "",
-            //   clientId: process.env.GITHUB_CLIENT_ID!, // OR
-            //   clientId: process.env.GITHUB_CLIENT_ID as string,
-        },
-        google: {
-            clientId: "",
-            clientSecret: "",    
-        },
-    },
+    // socialProviders: {
+    //     github: {
+    //         clientId: "",
+    //         clientSecret: "",
+    //         //   clientId: process.env.GITHUB_CLIENT_ID!, // OR
+    //         //   clientId: process.env.GITHUB_CLIENT_ID as string,
+    //     },
+    //     google: {
+    //         clientId: "",
+    //         clientSecret: "",    
+    //     },
+    // },
     plugins: [nextCookies()]
 });
